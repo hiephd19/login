@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Priority</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main1.css">
+        <style>
+            /* 
+            /* Thuộc tính có !important là ưu tiên lớn nhất */
+            /*h1#heading-id.heading-class có 111p*/
+            /* h1#heading-id.heading-class {
+                color: orange;
+            } */
+            /* #heading-id.heading-class có 110p */
+            /* #heading-id.heading-class {
+                color:violet;
+            } */
+            /* #heading-id có 100p */
+            /* #heading-id {
+                color: green;
+            } */
+            /* .heading có 10p */
+            /* .heading-class {
+                color: blue;
+            } */
+            /* h1 có 10p */
+            /* h1 {
+                color: red;
+            } */ 
+        </style>
+        
+    </head>
+    <body>
+        <div>
+            <h1 style="color: orange !important" class="heading-class" id="heading-id">Priority?</h1>
+            <ol>
+                <li style="color: black !important">Internal, External?</li>
+                <li>Inline - 10000</li>
+                <li>#id - 100</li>
+                <li>.class - 10</li>
+                <li>tag - 1</li>
+                <li>Equal specificity</li>
+                <li>Universal selector and inherited?</li>
+            </ol>
+        </div>
+    </body>
+</html>

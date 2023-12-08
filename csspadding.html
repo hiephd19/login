@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="">
+        <style>
+            .box {
+                width: 60px;
+                height: 60px;
+                color: white;
+                display: flex; 
+                /* Thuộc tính display biến phần tử thành một container */
+                /* dùng display: flex cho một phần tử trong CSS, 
+                nó sẽ tạo ra một "flex container" và các thuộc tính 
+                align-items: center; và justify-content: center; 
+                sẽ giúp căn giữa các phần tử con theo chiều dọc và chiều ngang trong container đó. */
+                align-items: center;
+                /* Căn chỉnh phần tử theo chiều dọc của flex container */
+                justify-content: center;
+                /* Căn chỉnh phần tử theo chiều ngang của flex container */
+
+            }
+
+            .box1 {
+                background-color: blue;
+            }
+
+            .box2 {
+                background-color: red;
+            }
+
+            .box3 {
+                color: black;
+                background-color: yellow;
+                padding: 10px;
+                border-width: 10px;
+                border-style: solid;
+                border-color: #333;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+    </body>
+</html>

@@ -1,0 +1,9 @@
+/* khi muốn trỏ đến một ID ta dùng #. khi muốn trỏ đến một Class ta dùng dấu . */
+#first-heading {
+    color: blue;
+}
+
+.second-heading {
+    color: brown;
+    font: size 20px;;
+}

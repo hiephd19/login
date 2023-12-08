@@ -1,0 +1,12 @@
+/* Bên dưới là mức độ ưu tiên CSS của các thẻ */
+
+li {
+    color: green;
+}
+html {
+    color: blue;
+}
+* {
+    color: purple;
+}
+
